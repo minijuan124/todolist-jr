@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Tasks } from "./Task";
 import { Error } from "./Error";
-import { Title } from "./Header";
 export function ToDoList() {
 	const [tasks, setTasks] = useState(["Hacer cafe", "pasear perro"]);
 	const [task, setTask] = useState("");
@@ -25,7 +24,6 @@ export function ToDoList() {
 	}
 	return (
 		<div className="title justify-content-center">
-			<Title />
 			<div className="todolist-box container">
 				<div className="text-center mt-5">
 					<h1>ToDoList</h1>

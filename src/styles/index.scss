@@ -11,3 +11,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todolist-box{
+    background-color: rgb(73, 73, 170) ;
+    border:2px solid rgb(15, 14, 14);
+    width:70vw;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 1rem;
+}
+
+.todolist-tasks{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gold;
+}
